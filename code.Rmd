@@ -464,10 +464,6 @@ rm(xt_cor,xn_cor)
 ```
 
 
-```{r}
-save.image("final_paper_w.RData")
-```
-
 # Survival models
 
 
@@ -939,18 +935,6 @@ var_selected_50_select_en_05$Var1
 ```
 
 
-
-
-
-
-```{r}
-# #CHAT tool
-# names <- c()
-# 
-# geneNames(names) %>% { hallmarks(.$external_gene_name)$heatmap} + theme(axis.text=element_text(size=10), axis.title=element_text(size=10))
-
-
-```
 
 ### final plot
 ```{r,warning=FALSE,message=FALSE}
@@ -1469,8 +1453,7 @@ p_pvalues_TCox+ ylim(0, max(pvalues_TCox_values))
 
 
 # Gene function ontology
-https://yulab-smu.top/biomedical-knowledge-mining-book/index.html
-https://www.liebertpub.com/doi/10.1089/omi.2011.0118
+
 ```{r}
 library(clusterProfiler)
 library(org.Hs.eg.db)
